@@ -1,0 +1,17 @@
+.test-page {
+    padding: 20px;
+  }
+  
+  .test-page h2 {
+    margin-bottom: 20px;
+  }
+  
+  .test-page div {
+    margin-bottom: 10px;
+  }
+  
+  .test-page strong {
+    margin-right: 5px;
+    font-weight: bold;
+  }
+  

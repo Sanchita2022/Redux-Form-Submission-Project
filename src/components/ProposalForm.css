@@ -1,0 +1,188 @@
+.proposal-form {
+  width: calc(100%-40px);
+  /* height: 1300px; */
+  border: 1px solid rgb(221, 203, 203);
+  margin: auto;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 10px;
+  padding: 20px 60px 30px 40px;
+  /* min-width: 600px; */
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.salutation {
+  width: calc(25% - 10px)!important;
+  border: 1px solid rgb(229, 214, 214);
+  
+  height: fit-content;
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.fullname {
+  width: calc(75% + 40px)!important;
+  border: 1px solid rgb(229, 214, 214);
+  height: 55px;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.dob {
+  width: 25%;
+  border: 1px solid rgb(231, 213, 213);
+  height: auto;
+  padding: 10px;
+  margin-right: 12px;
+}
+
+.row input {
+  font-size: 1rem;
+  height: 30px;
+  width: 100%;
+  border: none;
+}
+.input-card:last-of-type {
+    margin-right: 0;
+}
+.row input:focus, 
+.row select:focus {
+  outline: none;
+}
+.row label {
+  font-size: 0.8rem;
+  color: rgb(27, 141, 186);
+}
+
+.input-card {
+  width: 25%;
+  border: 1px solid rgb(231, 213, 213);
+  height: fit-content;
+  min-height: 55px;
+  padding: 10px;
+  margin-right: 12px;
+}
+
+.height-inch {
+  margin-right: 0;
+}
+
+.second-row div {
+  border-radius: 5px;
+}
+.second-row div > label {
+  color: rgb(55, 164, 208);
+  font-size: 75%;
+  margin-bottom: 10px;
+}
+.thirdrow {
+  border: 1px solid rgb(216, 198, 198);
+  height: 50px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+}
+.thirdrow label {
+  font-size: 80%;
+  color: rgb(25, 148, 197);
+}
+.thirdrow select {
+  height: 40px;
+  border: none;
+}
+.mobile {
+  width: 30%;
+  border: 1px solid rgb(220, 194, 194);
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 5px;
+}
+.mobile label {
+  font-size: 80%;
+  color: rgb(27, 141, 186);
+}
+
+.email {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(205, 187, 187);
+  padding: 10px;
+  border-radius: 5px;
+}
+.email label {
+  font-size: 80%;
+  color: rgb(27, 141, 186);
+}
+
+.email input:focus {
+  outline: none;
+}
+.fifth-row {
+  width: 96.5%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(186, 171, 171);
+  padding: 10px;
+  border-radius: 5px;
+}
+.fifth-row label {
+  font-size: 80%;
+  color: rgb(36, 135, 175);
+}
+
+.city {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(186, 166, 166);
+  padding: 10px;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+.pincode {
+  width: 30%;
+
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(201, 184, 184);
+  padding: 10px;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+
+/*************bottom part start ********************/
+
+.bottom-box {
+  width: calc(100% - 20px);
+  box-shadow: 0 4px 8px 0 rgba(226, 214, 214, 0.2),
+    0 6px 20px 0 rgba(145, 139, 139, 0.19);
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: solid #eeeeee thin;
+}
+
+.bottom-box p {
+  font-size: 0.9rem;
+  color: rgb(37, 130, 166);
+  margin-top: 0px;
+}
+
+.error {
+    color: red;
+    font-size: 0.8rem;
+}
