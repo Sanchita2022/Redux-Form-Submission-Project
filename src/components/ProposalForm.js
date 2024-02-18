@@ -23,7 +23,7 @@ import {
 
 const ProposalForm = ({
   address,
-  job,
+  job="default",
   fullName,
   dob,
   mobile,
@@ -175,6 +175,7 @@ const ProposalForm = ({
   };
 
   const handleOccupationChange = (event) => {
+    console.log(event.target.value)
     setJob(event.target.value);
   };
 
@@ -337,9 +338,8 @@ const ProposalForm = ({
           <label>Occupation</label>
           <select
             name="jobInput"
-            value={job ? job :"default" }
+            value={job}
             onChange={handleOccupationChange}
-            defaultValue={"Salaried"}
           >
           <option value="default" >Select value</option>
             <option value="Salaried">Salaried</option>
@@ -486,6 +486,7 @@ const mapStateToProps = (state) => ({
   inch: state.inch,
   city: state.city,
   pincode: state.pincode,
+  job: state.job,
   preExistingDisease: state.preExistingDisease,
 });
 
